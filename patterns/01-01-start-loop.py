@@ -34,7 +34,9 @@ def draw_triangle(pattern, n_lines):
 
 
 def main():
-    draw_triangle("*", 10)
+    pattern = input("Enter the pattern character: ")
+    n_lines = int(input("Number of lines for triangle (always enter a number): "))
+    draw_triangle(pattern, n_lines)
 
 
 if __name__ == "__main__":
